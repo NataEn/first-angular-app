@@ -2,11 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import {ServerComponent} from "./server/server.component"
+import {ParticipantComponent} from "./participant/participant.component";
+import { ParticipantsComponent } from './participants/participants.component'
 
 @NgModule({
   declarations: [
-    AppComponent,ServerComponent
+    AppComponent,ParticipantComponent, ParticipantsComponent,
   ],
   imports: [
     BrowserModule
