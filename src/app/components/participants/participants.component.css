@@ -1,0 +1,13 @@
+.container {
+  margin: 0.4rem;
+  display: flex;
+  flex-direction: column;
+}
+.participants-list {
+  margin: 0.4rem;
+  display: flex;
+}
+.participants-list_button {
+  width: fit-content;
+  align-self: center;
+}

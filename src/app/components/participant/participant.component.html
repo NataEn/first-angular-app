@@ -1,1 +1,24 @@
-<h2>participant component</h2>
+<h2>participant with ID{{ participantID }}: {{ participantName }}</h2>
+
+<mat-card class="participant-card">
+  <mat-card-header>
+    <div mat-card-avatar class="header-image"></div>
+    <mat-card-title>{{ participantName }}</mat-card-title>
+    <mat-card-subtitle>Participant</mat-card-subtitle>
+  </mat-card-header>
+  <img
+    class="card-img"
+    mat-card-image
+    src="https://qodebrisbane.com/wp-content/uploads/2019/07/This-is-not-a-person-2-1.jpeg"
+    alt="Photo of a participant"
+  />
+  <mat-card-content>
+    <p>
+      {{ getParticipantDescription(participantID) }}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>

@@ -6,8 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./participants.component.css']
 })
 export class ParticipantsComponent implements OnInit {
-
+  allowNewParticipant = false;
   constructor() { }
+
 
   ngOnInit(): void {
   }
