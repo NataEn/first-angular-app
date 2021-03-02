@@ -3,5 +3,7 @@
     <app-participant></app-participant>
     <app-participant></app-participant>
   </div>
-  <button disabled class="participants-list_button">Add Participant</button>
+  <button [disabled]="allowNewParticipant" class="participants-list_button">
+    Add Participant
+  </button>
 </div>
