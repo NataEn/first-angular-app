@@ -1,0 +1,7 @@
+.spacer {
+  flex: 1 1 auto;
+}
+.logo,
+.icon {
+  margin: 0 0.5rem;
+}
